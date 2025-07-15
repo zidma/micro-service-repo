@@ -9,6 +9,6 @@ import org.springframework.web.bind.annotation.RestController;
 public class StudentController {
     @GetMapping("/test")
     String testApi(){
-        return "hello from student service 1";
+        return "Hello from student service instance 2";
     }
 }
